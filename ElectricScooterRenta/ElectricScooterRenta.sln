@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricScooterRenta", "ElectricScooterRenta\ElectricScooterRenta.csproj", "{96DE2E6D-5115-4E1F-B524-0D1504EA3FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricScooterRenta.Domain", "ElectricScooterRenta.Domain\ElectricScooterRenta.Domain.csproj", "{5D8484F8-1514-44D1-9D78-F3C2490AAF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricScooterRenta.Service", "ElectricScooterRenta.Service\ElectricScooterRenta.Service.csproj", "{597F7052-9FC7-4054-9F90-3815E5F0EC80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DE2E6D-5115-4E1F-B524-0D1504EA3FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DE2E6D-5115-4E1F-B524-0D1504EA3FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DE2E6D-5115-4E1F-B524-0D1504EA3FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DE2E6D-5115-4E1F-B524-0D1504EA3FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8484F8-1514-44D1-9D78-F3C2490AAF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8484F8-1514-44D1-9D78-F3C2490AAF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8484F8-1514-44D1-9D78-F3C2490AAF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8484F8-1514-44D1-9D78-F3C2490AAF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597F7052-9FC7-4054-9F90-3815E5F0EC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597F7052-9FC7-4054-9F90-3815E5F0EC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597F7052-9FC7-4054-9F90-3815E5F0EC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597F7052-9FC7-4054-9F90-3815E5F0EC80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

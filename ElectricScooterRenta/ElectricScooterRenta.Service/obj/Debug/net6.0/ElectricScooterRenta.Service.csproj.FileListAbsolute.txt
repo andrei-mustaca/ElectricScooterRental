@@ -1,0 +1,17 @@
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\bin\Debug\net6.0\ElectricScooterRenta.Service.deps.json
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\bin\Debug\net6.0\ElectricScooterRenta.Service.runtimeconfig.json
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\bin\Debug\net6.0\ElectricScooterRenta.Service.dll
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\bin\Debug\net6.0\ElectricScooterRenta.Service.pdb
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\bin\Debug\net6.0\ElectricScooterRenta.Domain.dll
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\bin\Debug\net6.0\ElectricScooterRenta.Domain.pdb
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.csproj.AssemblyReference.cache
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.AssemblyInfoInputs.cache
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.AssemblyInfo.cs
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.csproj.CoreCompileInputs.cache
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.csproj.CopyComplete
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.dll
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\refint\ElectricScooterRenta.Service.dll
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.pdb
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ElectricScooterRenta.Service.genruntimeconfig.cache
+C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta.Service\obj\Debug\net6.0\ref\ElectricScooterRenta.Service.dll
