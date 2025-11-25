@@ -8,8 +8,8 @@ public class Scooter
     public double Speed { get; set; }
     public double BatteryLevel { get; set; }
     public string Color { get; set; }
-    public StatusEnum Status { get; set; }      // Free, Busy
-    public ConditionEnum Condition { get; set; }   // Working, Repair, Decommission
+    public StatusEnum Status { get; set; }      
+    public ConditionEnum Condition { get; set; }
 
     public ICollection<Rental> Rentals { get; set; }
     public ICollection<Repair> Repairs { get; set; }

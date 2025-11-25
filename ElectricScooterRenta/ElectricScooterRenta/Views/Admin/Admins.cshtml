@@ -1,0 +1,64 @@
+@model List<ElectricScooterRenta.Domain.Models.User>
+@{
+    Layout = "_Layout";   
+  ViewBag.Title = "Список администраторов";
+}
+
+<style>
+    body { font-family: Arial, sans-serif; background-color: #f8f9fa; color: #333; padding: 20px; }
+    h2 { color: #222; margin-bottom: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; background: #fff; border-radius: 8px; }
+    th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+    th { background-color: #007bff; color: #fff; }
+    .btn { padding: 5px 10px; border-radius: 4px; color: #fff; text-decoration: none; margin-right: 5px; cursor: pointer; }
+    .btn-primary { background-color: #007bff; }
+    .btn-info { background-color: #17a2b8; }
+    .btn-danger { background-color: #dc3545; }
+    .btn-success { background-color: #28a745; }
+    .btn-secondary { background-color: #6c757d; }
+    .pagination a { display: inline-block; padding: 5px 10px; margin: 0 2px; border: 1px solid #007bff; color: #007bff; border-radius: 4px; text-decoration: none; }
+    .pagination a.active { background-color: #007bff; color: #fff; }
+    .alert { padding: 10px; background-color: #f8d7da; color: #721c24; border-radius: 4px; margin-bottom: 15px; }
+</style>
+
+<h2>Список администраторов</h2>
+
+@if (TempData["Error"] != null)
+{
+<div class="alert">@TempData["Error"]</div>
+}
+
+<table>
+    <thead>
+    <tr>
+        <th>ФИО</th>
+        <th>Email</th>
+        <th>Действия</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var admin in Model)
+    {
+    <tr>
+        <td>@admin.FullName</td>
+        <td>@admin.Email</td>
+        <td>
+            <a class="btn btn-info" asp-action="AdminDetails" asp-route-id="@admin.Id">Детали</a>
+            <a class="btn btn-danger" asp-action="DeleteAdmin" asp-route-id="@admin.Id" onclick="return confirm('Удалить администратора?');">Удалить</a>
+        </td>
+    </tr>
+    }
+    </tbody>
+</table>
+
+<div class="pagination">
+    @if (ViewBag.TotalPages > 1)
+    {
+    for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+    <a class="@(i == ViewBag.CurrentPage ? "active" : "")" asp-action="Admins" asp-route-page="@i">@i</a>
+    }
+    }
+</div>
+
+<a class="btn btn-success" asp-action="CreateAdmin">Создать администратора</a>

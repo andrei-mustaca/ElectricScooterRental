@@ -1,0 +1,35 @@
+@using ElectricScooterRenta.Domain.Enums
+@model ElectricScooterRenta.Service.DTOs.UserDTOs.UserRegisterRequest
+@{
+    Layout = "_Layout";
+}
+
+    <link rel="stylesheet" href="~/css/auth.css" />
+
+<div class="auth-container mt-5">
+    <h2 class="text-center mb-4">Регистрация</h2>
+
+    @using (Html.BeginForm("Register", "User", FormMethod.Post))
+    {
+        @Html.TextBoxFor(m => m.Username, new { placeholder = "Логин", @class = "form-control mb-2" })
+        @Html.TextBoxFor(m => m.Email, new { placeholder = "Email", @class = "form-control mb-2" })
+        @Html.PasswordFor(m => m.Password, new { placeholder = "Пароль", @class = "form-control mb-2" })
+        @Html.PasswordFor(m => m.ConfirmPassword, new { placeholder = "Повторите пароль", @class = "form-control mb-2" })
+        <button type="submit" class="btn btn-success w-100">Зарегистрироваться</button>
+    }
+
+    <p class="mt-3 text-center">
+        Уже есть аккаунт? 
+        <a asp-controller="User" asp-action="Login">Войти</a>
+    </p>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="errors mt-2">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p class="text-danger text-center">@error.ErrorMessage</p>
+            }
+        </div>
+    }
+</div>

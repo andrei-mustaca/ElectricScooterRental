@@ -1,0 +1,37 @@
+@using ElectricScooterRenta.Domain.Enums
+@model ElectricScooterRenta.Service.DTOs.UserDTOs.UserLoginRequest
+@{
+    Layout = "_Layout";
+}
+
+<link rel="stylesheet" href="~/css/auth.css" />
+
+<div class="auth-container mt-5">
+    <h2 class="text-center mb-4">Вход</h2>
+
+    @using (Html.BeginForm("Login", "User", FormMethod.Post))
+    {
+        @Html.TextBoxFor(m => m.EmailOrUsername, new { placeholder = "Email или Логин", @class = "form-control mb-2" })
+        @Html.PasswordFor(m => m.Password, new { placeholder = "Пароль", @class = "form-control mb-2" })
+
+        <label>Выберите роль:</label>
+        @Html.DropDownListFor(m => m.Role, new SelectList(Enum.GetValues(typeof(RoleEnums))), "Выберите роль", new { @class = "form-select mb-3" })
+
+        <button type="submit" class="btn btn-success w-100">Войти</button>
+    }
+
+    <p class="mt-3 text-center">
+        Нет аккаунта? 
+        <a asp-controller="User" asp-action="Registration">Зарегистрироваться</a>
+    </p>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="errors mt-2">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p class="text-danger text-center">@error.ErrorMessage</p>
+            }
+        </div>
+    }
+</div>

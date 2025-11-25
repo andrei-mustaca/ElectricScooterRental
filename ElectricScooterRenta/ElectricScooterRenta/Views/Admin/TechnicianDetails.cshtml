@@ -1,0 +1,18 @@
+@model ElectricScooterRenta.Domain.Models.User
+
+<style>
+    body { font-family: Arial; background: #f8f9fa; padding: 20px; }
+    .details { background: white; padding: 20px; border-radius: 8px; width: 350px; }
+    p { margin: 8px 0; }
+    .btn { padding: 8px 12px; background: #6c757d; color: white; border-radius: 4px; text-decoration: none; }
+</style>
+
+<h2>Детали техника</h2>
+
+<div class="details">
+    <p><strong>ФИО:</strong> @Model.FullName</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Роль:</strong> @Model.Role</p>
+</div>
+
+<a asp-action="Technicians" class="btn">Назад</a>

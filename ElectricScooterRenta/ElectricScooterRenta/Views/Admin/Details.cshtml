@@ -1,0 +1,40 @@
+@model ElectricScooterRenta.Domain.Models.Scooter
+
+<h2>Детали самоката</h2>
+
+<table style="border-collapse: collapse; width: 50%; font-family: Arial, sans-serif;">
+    <tbody>
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd;">Цвет</th>
+        <td style="padding: 8px; border: 1px solid #ddd;">@Model.Color</td>
+    </tr>
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd;">Скорость</th>
+        <td style="padding: 8px; border: 1px solid #ddd;">@Model.Speed км/ч</td>
+    </tr>
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd;">Батарея</th>
+        <td style="padding: 8px; border: 1px solid #ddd;">@Model.BatteryLevel%</td>
+    </tr>
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd;">Статус</th>
+        <td style="padding: 8px; border: 1px solid #ddd;">@Model.Status</td>
+    </tr>
+    <tr>
+        <th style="padding: 8px; border: 1px solid #ddd;">Состояние</th>
+        <td style="padding: 8px; border: 1px solid #ddd;">@Model.Condition</td>
+    </tr>
+    </tbody>
+</table>
+
+<div style="margin-top: 15px;">
+    <a asp-action="Edit" asp-route-id="@Model.Id" 
+       style="padding: 8px 15px; background-color: #ffc107; color: white; border-radius: 5px; text-decoration: none; margin-right: 10px;">
+        Редактировать
+    </a>
+    <a asp-action="Delete" asp-route-id="@Model.Id" 
+       style="padding: 8px 15px; background-color: #dc3545; color: white; border-radius: 5px; text-decoration: none;"
+       onclick="return confirm('Вы уверены, что хотите удалить этот самокат?');">
+        Удалить
+    </a>
+</div>

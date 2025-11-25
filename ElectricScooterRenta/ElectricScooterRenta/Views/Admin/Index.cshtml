@@ -1,0 +1,61 @@
+@model List<ElectricScooterRenta.Domain.Models.Scooter>
+
+<h2>Список самокатов</h2>
+
+<p>
+    <a asp-action="CreateScooter" style="padding: 8px 15px; background-color: #28a745; color: white; border-radius: 5px; text-decoration: none;">Добавить новый самокат</a>
+</p>
+
+<table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <thead style="background-color: #007bff; color: white;">
+        <tr>
+            <th style="padding: 8px; border: 1px solid #ddd;">Цвет</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Скорость</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Батарея</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Статус</th>
+            <th style="padding: 8px; border: 1px solid #ddd;">Состояние</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var scooter in Model)
+        {
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">
+                    <a asp-action="Details" asp-route-id="@scooter.Id" style="text-decoration: none; color: #007bff;">
+                        @scooter.Color
+                    </a>
+                </td>
+                <td style="padding: 8px; border: 1px solid #ddd;">@scooter.Speed</td>
+                <td style="padding: 8px; border: 1px solid #ddd;">@scooter.BatteryLevel%</td>
+                <td style="padding: 8px; border: 1px solid #ddd;">@scooter.Status</td>
+                <td style="padding: 8px; border: 1px solid #ddd;">@scooter.Condition</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.TotalPages > 1)
+{
+    <div style="margin-top: 15px; text-align: center;">
+        <nav>
+            <ul style="list-style: none; padding: 0; display: inline-flex; gap: 5px;">
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    if (i == ViewBag.CurrentPage)
+                    {
+                        <li style="padding: 6px 12px; background-color: #007bff; color: white; border-radius: 4px;">@i</li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="@Url.Action("Index", new { page = i })" 
+                               style="padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #007bff;">
+                                @i
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </nav>
+    </div>
+}

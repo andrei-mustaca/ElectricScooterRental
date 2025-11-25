@@ -1,0 +1,62 @@
+@{
+Layout = "_Layout";
+ViewData["Title"] = "Админ-панель";
+}
+
+<link rel="stylesheet" href="~/css/admin.css" />
+
+<div class="admin-container">
+
+    <h1 class="title">Административная панель</h1>
+    <p class="subtitle">
+        Здесь вы можете управлять электросамокатами, а также добавлять или удалять сотрудников.
+    </p>
+    
+    <section class="section-block">
+        <div class="section-title">Работа с самокатами</div>
+        <p class="section-desc">
+            В этом разделе находятся инструменты для управления парком самокатов.
+            Вы можете просматривать все самокаты, редактировать информацию о каждом устройстве,
+            удалять из системы устаревшие модели или добавлять новые.
+            Используйте эти инструменты, чтобы держать парк техники в актуальном состоянии.
+        </p>
+
+        <div class="button-group">
+            <a asp-controller="Admin" asp-action="Index" class="admin-btn btn-primary">
+                Отобразить список самокатов
+            </a>
+
+            <a asp-controller="Admin" asp-action="CreateScooter" class="admin-btn btn-green">
+                Добавить новый самокат
+            </a>
+        </div>
+    </section>
+    
+    <section class="section-block">
+        <div class="section-title">Управление персоналом</div>
+        <p class="section-desc">
+            В этом разделе вы можете управлять персоналом проекта: администраторами и техниками.
+            Просматривайте всех сотрудников, добавляйте новых специалистов и удаляйте
+            тех, кто больше не работает. Для оптимизации списков включена пагинация.
+        </p>
+
+        <div class="button-group">
+            <a asp-controller="Admin" asp-action="Technicians" class="admin-btn btn-primary">
+                Просмотр всех техников
+            </a>
+
+            <a asp-controller="Admin" asp-action="CreateTechnician" class="admin-btn btn-green">
+                Добавить техника
+            </a>
+            
+            <a asp-controller="Admin" asp-action="Admins" class="admin-btn btn-primary">
+                Просмотр всех администраторов
+            </a>
+
+            <a asp-controller="Admin" asp-action="CreateAdmin" class="admin-btn btn-green">
+                Добавить администратора
+            </a>
+        </div>
+    </section>
+
+</div>

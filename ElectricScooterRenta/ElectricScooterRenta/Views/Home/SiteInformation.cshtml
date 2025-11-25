@@ -1,0 +1,83 @@
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Информация о сервисе";
+}
+<section class="hero">
+    <h1>Быстрая и удобная аренда электросамокатов</h1>
+    <p>Перемещайтесь по городу легко, экологично и без пробок!</p>
+    @{
+        string buttonText = "Арендовать самокат"; 
+        string buttonLink = Url.Action("Login", "User");
+
+        var cookies = Context.Request.Cookies;
+
+        if (cookies.ContainsKey("admin"))
+        {
+            buttonText = "Админ панель";
+            buttonLink = Url.Action("AdminPanel", "Admin"); 
+        }
+        else if (cookies.ContainsKey("tech"))
+        {
+            buttonText = "Отчет о ремонте";
+            buttonLink = Url.Action("RepairReport", "Tech");
+        }
+        else if (cookies.ContainsKey("user"))
+        {
+            buttonText = "Арендовать самокат";
+            buttonLink = Url.Action("Rent", "Scooter");
+        }
+    }
+
+    <a href="@buttonLink">
+        <button>@buttonText</button>
+    </a>
+</section>
+
+
+<section class="section" id="benefits">
+    <h2>Почему выбирают нас?</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="~/images/самокат1.jpg"  alt=""/>
+            <h3>Удобство</h3>
+            <p>Ближайший самокат — всегда под рукой.</p>
+        </div>
+
+
+        <div class="card">
+            <img src="~/images/самокат2.jpg" alt=""/>
+            <h3>Экологичность</h3>
+            <p>Нулевые выбросы — чистый и современный транспорт.</p>
+        </div>
+
+
+        <div class="card">
+            <img src="~/images/самокат3.jpg" alt=""/>
+            <h3>Доступность</h3>
+            <p>Гибкие тарифы — платите только за фактическое время.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" id="tariffs">
+    <h2>Тарифы</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Стандарт</h3>
+            <p>10 рублей в минуту</p>
+        </div>
+
+
+        <div class="card">
+            <h3>Суточный</h3>
+            <p>250 рублей за сутки</p>
+        </div>
+
+
+        <div class="card">
+            <h3>Месячный</h3>
+            <p>1000 рублей в месяц</p>
+        </div>
+    </div>
+</section>

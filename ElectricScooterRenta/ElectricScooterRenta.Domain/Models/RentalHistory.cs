@@ -8,6 +8,6 @@ public class RentalHistory
     public Guid RentalId { get; set; }
     public Rental Rental { get; set; }
 
-    public StatusRentaEnum StatusRenta { get; set; }    // Started, Finished, etc.
+    public StatusRentaEnum StatusRenta { get; set; }   
     public DateTime ChangedAt { get; set; }
 }

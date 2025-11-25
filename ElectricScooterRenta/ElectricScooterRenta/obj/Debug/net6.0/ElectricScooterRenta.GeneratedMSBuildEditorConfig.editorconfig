@@ -15,16 +15,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PendalfSeri\Desktop\Учеба\Учебная практика\ElectricScooterRental\ElectricScooterRenta\ElectricScooterRenta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/AdminDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/Admins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/CreateAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/CreateScooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlU2Nvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/CreateTechnician.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlVGVjaG5pY2lhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/TechnicianDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVjaG5pY2lhbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Admin/Technicians.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVjaG5pY2lhbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Home/SiteInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaXRlSW5mb3JtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/User/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PendalfSeri/Desktop/Учеба/Учебная практика/ElectricScooterRental/ElectricScooterRenta/ElectricScooterRenta/Views/_ViewImports.cshtml]

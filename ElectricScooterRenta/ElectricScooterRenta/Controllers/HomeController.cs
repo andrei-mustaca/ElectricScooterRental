@@ -11,16 +11,10 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
-    public IActionResult Index()
+    
+    public IActionResult SiteInformation()
     {
         return View();
     }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
 
 }

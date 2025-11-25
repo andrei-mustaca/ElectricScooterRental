@@ -1,0 +1,53 @@
+@model ElectricScooterRenta.Service.DTOs.AdminDTOs.CreateUserRequest
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Создание администратора";
+}
+
+<style>
+    body { font-family: Arial, sans-serif; background-color: #f8f9fa; color: #333; padding: 20px; }
+    h2 { color: #222; margin-bottom: 20px; }
+    form { background: #fff; padding: 20px; border-radius: 8px; max-width: 400px; }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; margin-bottom: 5px; font-weight: bold; }
+    input { width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ccc; }
+    .text-danger { color: #dc3545; font-size: 0.9em; }
+    .btn { padding: 8px 15px; border: none; border-radius: 4px; color: #fff; cursor: pointer; margin-right: 5px; }
+    .btn-primary { background-color: #007bff; }
+    .btn-secondary { background-color: #6c757d; }
+</style>
+
+<h2>Создать администратора</h2>
+
+<form asp-action="CreateAdmin" method="post">
+    <div class="form-group">
+        <label>ФИО</label>
+        <input asp-for="Username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input asp-for="Email" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Пароль</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Подтвердить пароль</label>
+        <input asp-for="ConfirmPassword" type="password" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Создать</button>
+    <a asp-action="Admins" class="btn btn-secondary">Отмена</a>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
