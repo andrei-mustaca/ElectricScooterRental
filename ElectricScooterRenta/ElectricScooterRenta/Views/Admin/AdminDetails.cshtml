@@ -1,24 +1,26 @@
 @model ElectricScooterRenta.Domain.Models.User
 @{
-Layout = "_Layout";
-ViewBag.Title = "Детали администратора";
+    Layout = "_Layout";
+    ViewBag.Title = "Детали администратора";
 }
 
-<style>
-    body { font-family: Arial, sans-serif; background-color: #f8f9fa; color: #333; padding: 20px; }
-    h2 { color: #222; margin-bottom: 20px; }
-    .details { background: #fff; padding: 20px; border-radius: 8px; max-width: 400px; }
-    .details p { margin-bottom: 10px; }
-    .btn { padding: 8px 15px; border: none; border-radius: 4px; color: #fff; cursor: pointer; margin-top: 10px; text-decoration: none; }
-    .btn-secondary { background-color: #6c757d; }
-</style>
+<h2 style="color: white; margin-bottom: 20px;">Детали администратора</h2>
 
-<h2>Детали администратора</h2>
-
-<div class="details">
-    <p><strong>ФИО:</strong> @Model.FullName</p>
-    <p><strong>Email:</strong> @Model.Email</p>
-    <p><strong>Роль:</strong> @Model.Role</p>
+<div style="background: #1b1b1b; padding: 20px; border-radius: 8px; max-width: 520px; color: #e9ecef; box-shadow: 0 1px 0 rgba(255,255,255,0.02) inset; border: 1px solid #2b2b2b;">
+    <p style="margin-bottom: 12px;"><strong style="width:120px; display:inline-block; color:#cbd5e1;">ФИО:</strong> <span>@Model.FullName</span></p>
+    <p style="margin-bottom: 12px;"><strong style="width:120px; display:inline-block; color:#cbd5e1;">Email:</strong> <span>@Model.Email</span></p>
+    <p style="margin-bottom: 12px;"><strong style="width:120px; display:inline-block; color:#cbd5e1;">Роль:</strong> <span>@Model.Role</span></p>
 </div>
 
-<a asp-action="Admins" class="btn btn-secondary">Назад к списку</a>
+<div style="margin-top: 18px;">
+    <a asp-action="Admins"
+       style="display:inline-block; padding:8px 14px; background-color:#6c757d; color:white; border-radius:4px; text-decoration:none; margin-right:10px;">
+        Назад к списку
+    </a>
+    
+    <a asp-action="DeleteAdmin" asp-route-id="@Model.Id"
+       style="display:inline-block; padding:8px 14px; background-color:#dc3545; color:white; border-radius:4px; text-decoration:none;"
+       onclick="return confirm('Удалить администратора?');">
+        Удалить
+    </a>
+</div>

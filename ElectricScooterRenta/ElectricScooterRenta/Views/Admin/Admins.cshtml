@@ -4,60 +4,63 @@
   ViewBag.Title = "Список администраторов";
 }
 
-<style>
-    body { font-family: Arial, sans-serif; background-color: #f8f9fa; color: #333; padding: 20px; }
-    h2 { color: #222; margin-bottom: 20px; }
-    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; background: #fff; border-radius: 8px; }
-    th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-    th { background-color: #007bff; color: #fff; }
-    .btn { padding: 5px 10px; border-radius: 4px; color: #fff; text-decoration: none; margin-right: 5px; cursor: pointer; }
-    .btn-primary { background-color: #007bff; }
-    .btn-info { background-color: #17a2b8; }
-    .btn-danger { background-color: #dc3545; }
-    .btn-success { background-color: #28a745; }
-    .btn-secondary { background-color: #6c757d; }
-    .pagination a { display: inline-block; padding: 5px 10px; margin: 0 2px; border: 1px solid #007bff; color: #007bff; border-radius: 4px; text-decoration: none; }
-    .pagination a.active { background-color: #007bff; color: #fff; }
-    .alert { padding: 10px; background-color: #f8d7da; color: #721c24; border-radius: 4px; margin-bottom: 15px; }
-</style>
-
-<h2>Список администраторов</h2>
+<h2 style="color: white;">Список администраторов</h2>
 
 @if (TempData["Error"] != null)
 {
-<div class="alert">@TempData["Error"]</div>
+    <div style="padding: 10px; background-color: #8b0000; color: white; border-radius: 4px; margin-bottom: 15px;">
+        @TempData["Error"]
+    </div>
 }
 
-<table>
-    <thead>
-    <tr>
-        <th>ФИО</th>
-        <th>Email</th>
-        <th>Действия</th>
-    </tr>
+<table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; background: #1b1b1b;">
+    <thead style="background-color: #007bff; color: white;">
+        <tr>
+            <th style="padding: 8px; border: 1px solid #444;">ФИО</th>
+            <th style="padding: 8px; border: 1px solid #444;">Email</th>
+            <th style="padding: 8px; border: 1px solid #444;">Действия</th>
+        </tr>
     </thead>
     <tbody>
-    @foreach (var admin in Model)
-    {
-    <tr>
-        <td>@admin.FullName</td>
-        <td>@admin.Email</td>
-        <td>
-            <a class="btn btn-info" asp-action="AdminDetails" asp-route-id="@admin.Id">Детали</a>
-            <a class="btn btn-danger" asp-action="DeleteAdmin" asp-route-id="@admin.Id" onclick="return confirm('Удалить администратора?');">Удалить</a>
-        </td>
-    </tr>
-    }
+        @foreach (var admin in Model)
+        {
+            <tr>
+                <td style="padding: 8px; border: 1px solid #444; color: white;">@admin.FullName</td>
+                <td style="padding: 8px; border: 1px solid #444; color: white;">@admin.Email</td>
+                <td style="padding: 8px; border: 1px solid #444;">
+                    <a class="btn btn-info" asp-action="AdminDetails" asp-route-id="@admin.Id">Детали</a>
+                    <a class="btn btn-danger" asp-action="DeleteAdmin" asp-route-id="@admin.Id"
+                       onclick="return confirm('Удалить администратора?');">Удалить</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
 
-<div class="pagination">
+<div style="margin-top: 15px;">
     @if (ViewBag.TotalPages > 1)
     {
-    for (int i = 1; i <= ViewBag.TotalPages; i++)
-    {
-    <a class="@(i == ViewBag.CurrentPage ? "active" : "")" asp-action="Admins" asp-route-page="@i">@i</a>
-    }
+        <div style="text-align: center;">
+            <ul style="list-style: none; padding: 0; display: inline-flex; gap: 5px;">
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    if (i == ViewBag.CurrentPage)
+                    {
+                        <li style="padding: 6px 12px; background-color: #007bff; color: white; border-radius: 4px;">@i</li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="@Url.Action("Admins", new { page = i })"
+                               style="padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; 
+                                      text-decoration: none; color: #007bff;">
+                                @i
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
     }
 </div>
 

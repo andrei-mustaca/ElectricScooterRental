@@ -1,27 +1,17 @@
 @model List<ElectricScooterRenta.Domain.Models.User>
 
-<style>
-    body { font-family: Arial; background: #f8f9fa; padding: 20px; }
-    h2 { color: #222; }
-    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
-    th { background: #28a745; color: white; padding: 10px; }
-    td { padding: 10px; border: 1px solid #ddd; }
-    .btn { padding: 6px 12px; border-radius: 4px; color: #fff; text-decoration: none; }
-    .btn-info { background: #17a2b8; }
-    .btn-danger { background: #dc3545; }
-    .btn-success { background: #28a745; }
-    .pagination a { padding: 5px 10px; border: 1px solid #28a745; color: #28a745; border-radius: 4px; text-decoration: none; margin: 0 2px; }
-    .active { background: #28a745; color: white; }
-</style>
+@{
+    Layout = "_Layout";
+}
 
-<h2>Список техников</h2>
+<h2 style="color: white; margin-bottom: 20px;">Список техников</h2>
 
-<table>
+<table style="width: 100%; border-collapse: collapse; background: #1b1b1b; border-radius: 8px; overflow: hidden; color: #e9ecef;">
     <thead>
     <tr>
-        <th>ФИО</th>
-        <th>Email</th>
-        <th>Действия</th>
+        <th style="background: #28a745; color: white; padding: 10px; text-align: left;">ФИО</th>
+        <th style="background: #28a745; color: white; padding: 10px; text-align: left;">Email</th>
+        <th style="background: #28a745; color: white; padding: 10px; text-align: left;">Действия</th>
     </tr>
     </thead>
 
@@ -29,22 +19,46 @@
     @foreach (var t in Model)
     {
         <tr>
-            <td>@t.FullName</td>
-            <td>@t.Email</td>
-            <td>
-                <a class="btn btn-info" asp-action="TechnicianDetails" asp-route-id="@t.Id">Детали</a>
-                <a class="btn btn-danger" asp-action="DeleteTechnician" asp-route-id="@t.Id" onclick="return confirm('Удалить техника?')">Удалить</a>
+            <td style="padding: 10px; border-bottom: 1px solid #2d2d2d;">@t.FullName</td>
+            <td style="padding: 10px; border-bottom: 1px solid #2d2d2d;">@t.Email</td>
+            <td style="padding: 10px; border-bottom: 1px solid #2d2d2d;">
+                <a asp-action="TechnicianDetails"
+                   asp-route-id="@t.Id"
+                   style="padding: 6px 12px; background: #17a2b8; border-radius: 4px; color: #fff; text-decoration: none; margin-right: 6px;">
+                    Детали
+                </a>
+
+                <a asp-action="DeleteTechnician"
+                   asp-route-id="@t.Id"
+                   onclick="return confirm('Удалить техника?')"
+                   style="padding: 6px 12px; background: #dc3545; border-radius: 4px; color: #fff; text-decoration: none;">
+                    Удалить
+                </a>
             </td>
         </tr>
     }
     </tbody>
 </table>
 
-<div class="pagination">
+<div style="margin-top: 15px;">
     @for (int i = 1; i <= ViewBag.TotalPages; i++)
     {
-        <a class="@(i == ViewBag.CurrentPage ? "active" : "")" asp-action="Technicians" asp-route-page="@i">@i</a>
+        <a asp-action="Technicians"
+           asp-route-page="@i"
+           style="
+               padding: 5px 10px;
+               border: 1px solid #28a745;
+               color: @(i == ViewBag.CurrentPage ? "white" : "#28a745");
+               background: @(i == ViewBag.CurrentPage ? "#28a745" : "transparent");
+               border-radius: 4px;
+               text-decoration: none;
+               margin: 0 2px;">
+            @i
+        </a>
     }
 </div>
 
-<a class="btn btn-success" asp-action="CreateTechnician">Создать техника</a>
+<a asp-action="CreateTechnician"
+   style="display:inline-block; margin-top: 15px; padding: 8px 14px; background: #28a745; color: white; border-radius: 4px; text-decoration: none;">
+    Создать техника
+</a>

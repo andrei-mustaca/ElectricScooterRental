@@ -20,4 +20,8 @@
       <ProjectReference Include="..\ElectricScooterRenta.Service\ElectricScooterRenta.Service.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Views\Technician\" />
+    </ItemGroup>
+
 </Project>

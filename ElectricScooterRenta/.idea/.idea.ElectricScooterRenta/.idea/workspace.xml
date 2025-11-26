@@ -9,58 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a469620-56f0-419c-8db2-a7027ca035d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ElectricScooterRenta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ElectricScooterRenta/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/Models/RentalHistory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/Models/RentalHistory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/Models/Scooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/Models/Scooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/bin/Debug/net6.0/ElectricScooterRenta.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/bin/Debug/net6.0/ElectricScooterRenta.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/bin/Debug/net6.0/ElectricScooterRenta.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/bin/Debug/net6.0/ElectricScooterRenta.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/Debug/net6.0/ElectricScooterRenta.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/Debug/net6.0/ElectricScooterRenta.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/Debug/net6.0/ElectricScooterRenta.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/Debug/net6.0/ElectricScooterRenta.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/ElectricScooterRenta.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/ElectricScooterRenta.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/bin/Debug/net6.0/ElectricScooterRenta.Service.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ElectricScooterRenta.Service.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ref/ElectricScooterRenta.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/ref/ElectricScooterRenta.Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/refint/ElectricScooterRenta.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/Debug/net6.0/refint/ElectricScooterRenta.Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/ElectricScooterRenta.Service.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/ElectricScooterRenta.Service.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta.Service/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/ElectricScooterRenta.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/ElectricScooterRenta.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/AdminDetails.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/AdminDetails.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/Admins.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/Admins.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/TechnicianDetails.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/TechnicianDetails.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/Technicians.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/Technicians.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/bin/Debug/net6.0/ElectricScooterRenta.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ElectricScooterRenta.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ref/ElectricScooterRenta.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/ref/ElectricScooterRenta.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/refint/ElectricScooterRenta.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/refint/ElectricScooterRenta.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/ElectricScooterRenta.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/ElectricScooterRenta.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectricScooterRenta/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/ElectricScooterRenta/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +64,12 @@
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/DTOs/UserDTOs/UserLoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/DTOs/UserDTOs/UserRegisterRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/Intefaces/IAdminService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/Intefaces/ITechnicianService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/Intefaces/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/TechnicianService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta.Service/UserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta/Controllers/AdminController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ElectricScooterRenta/Controllers/TechnicianController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/AdminDetails.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ElectricScooterRenta/Views/Admin/AdminPanel.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -191,6 +155,7 @@
       <workItem from="1763955919589" duration="2906000" />
       <workItem from="1763976864196" duration="1654000" />
       <workItem from="1764013695514" duration="1279000" />
+      <workItem from="1764160533336" duration="3899000" />
     </task>
     <servers />
   </component>
